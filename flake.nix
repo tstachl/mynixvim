@@ -23,21 +23,21 @@
           nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
-            inherit pkgs;
+           inherit pkgs;
             module = import ./config;
-            extraSpecialArgs = { };
+            extraSpecialArgs = { inherit pkgs; };
           };
-          nvim = nixvim'.makeNixvimWithModule nixvimModule;
+          nvim   = nixvim'.makeNixvimWithModule nixvimModule;
         in
         {
           checks = {
-            # Run `nix flake check .` to verify that your config is not broken
             default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;
           };
 
           packages = {
-            # Lets you run `nix run .` to start nixvim
-            default = nvim;
+            default   = nvim;
+            editor    = nvim.extend { imports = [ ./config/editor.nix ]; };
+            obsidian  = nvim.extend { imports = [ ./config/obsidian.nix ]; };
           };
         };
     };
