@@ -1,10 +1,18 @@
 # My Nixvim Configuration
 
-This configuration sets up my basic `nvim` configuration. Additionally it
-specifies specific configurations for different coding languages and projects
-I'm working on.
+This configuration sets up my basic `nvim` configuration. Additionally it specifies specific configurations for coding and writing.
 
-## Default Configuration
+```bash
+# to run with the editor configuration
+nix run .#editor
+```
+
+```bash
+# to run with the writing configuration including obsidian plugin
+nix run .#obsidian
+```
+
+## Default Configuration (for both)
 
 ### Options
 
@@ -12,14 +20,11 @@ I tend to use the same options accross all my configurations.
 
 ### Keymaps
 
-This one is tricky, I use the same basic key maps accross configs, **but** there
-are some additional keymaps I use based on the plugins. For example, my obsidian
-plugin has additional keymaps that are super specific to obsidian.
+This one is tricky, I use the same basic key maps accross configs, **but** there are some additional keymaps I use based on the plugins. For example, my obsidian plugin has additional keymaps that are super specific to obsidian.
 
 ### Colorschemes
 
-It's probably time to switch to a new color scheme at some point but in general
-this also stays the same accross all my configurations.
+It's probably time to switch to a new color scheme at some point but in general this also stays the same accross all my configurations.
 
 ### Plugins
 
@@ -39,8 +44,7 @@ this also stays the same accross all my configurations.
 - Tab bar (lualine)
 - File manager (maybe include ranger - oil.nvim)
 
-## Obsidian
+## Obsidian Config
 
-Need to figure out some better way of doing this but I def don't want the
-Obsidian configuration in my standard `nvim` configuration.
+Need to figure out some better way of doing this but I def don't want the Obsidian configuration in my standard `nvim` configuration.
 

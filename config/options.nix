@@ -39,15 +39,16 @@
     scrolloff = 10;
     # Set highlight on search
     hlsearch = true;
-
     # Disable swapfile and backup
     swapfile = false;
     backup = false;
+    # Set's the conceal level
+    conceallevel = 1;
+    # I don't need a status all the time
+    laststatus = 3;
 
     # guicursor = "";
-    # conceallevel = 1;
     # cmdheight = 0;
-    # laststatus = 3;
     # hlsearch = false;
     # incsearch = true;
     # termguicolors = true;
