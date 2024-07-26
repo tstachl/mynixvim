@@ -46,10 +46,10 @@
     conceallevel = 1;
     # I don't need a status all the time
     laststatus = 3;
+    # Hide command bar
+    cmdheight = 0;
 
     # guicursor = "";
-    # cmdheight = 0;
-    # hlsearch = false;
     # incsearch = true;
     # termguicolors = true;
     # scrolloff = 8;
