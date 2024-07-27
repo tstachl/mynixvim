@@ -140,7 +140,8 @@
         };
       };
 
-      elixirls.enable = true;
+      # elixirls.enable = true;
+      nextls.enable = true;
       nil-ls.enable = true;
       tailwindcss.enable = true;
 
