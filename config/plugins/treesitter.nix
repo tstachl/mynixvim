@@ -1,7 +1,10 @@
 {
   plugins.treesitter = {
     enable = true;
-    settings.auto_install = true;
+    settings.ensure_installed = "all";
+    settings.ignore_install = [ "norg" ];
+    settings.highlight.enable = true;
+    settings.incremental_selection.enable = true;
     settings.indent.enable = true;
     nixvimInjections = true;
   };
