@@ -1,7 +1,7 @@
 {
   plugins.treesitter = {
     enable = true;
-    settings.ensure_installed = "all";
+    settings.auto_install = true;
     settings.indent.enable = true;
     nixvimInjections = true;
   };
