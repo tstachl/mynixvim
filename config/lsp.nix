@@ -129,6 +129,7 @@
     };
 
     servers = {
+      astro.enable = true;
       bashls.enable = true;
 
       denols = {
