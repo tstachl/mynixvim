@@ -2,7 +2,7 @@
   plugins.treesitter = {
     enable = true;
     settings.ensure_installed = "all";
-    settings.ignore_install = [ "norg" ];
+    settings.ignore_install = [ "norg" "sql" ];
     settings.highlight.enable = true;
     settings.incremental_selection.enable = true;
     settings.indent.enable = true;
