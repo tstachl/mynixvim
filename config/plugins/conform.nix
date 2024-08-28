@@ -18,8 +18,6 @@
       javascript = [ [ "prettierd" "prettier" ] [ "eslint_d" "eslint" ] ];
       typescript = [ [ "prettierd" "prettier" ] [ "eslint_d" "eslint" ] ];
     };
-    format_on_save.timeoutMs = 500;
-    format_on_save.lspFallback = true;
     notifyOnError = false;
   };
 }
