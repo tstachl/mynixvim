@@ -13,11 +13,11 @@
 
   plugins.conform-nvim = {
     enable = true;
-    formattersByFt = {
+    settings.formatters_by_ft = {
       lua = [ "lua_ls" ];
       javascript = [ [ "prettierd" "prettier" ] [ "eslint_d" "eslint" ] ];
       typescript = [ [ "prettierd" "prettier" ] [ "eslint_d" "eslint" ] ];
     };
-    notifyOnError = false;
+    settings.notify_on_error = false;
   };
 }

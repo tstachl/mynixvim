@@ -1,4 +1,4 @@
 {
   plugins.todo-comments.enable = true;
-  plugins.todo-comments.signs = false;
+  plugins.todo-comments.settings.signs = false;
 }
