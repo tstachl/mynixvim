@@ -1,4 +1,5 @@
 {
+  plugins.web-devicons.enable = true;
   plugins.mini.enable = true;
   plugins.mini.modules = {
     ai.n_lines = 500;

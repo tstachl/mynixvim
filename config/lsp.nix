@@ -138,10 +138,10 @@
 
       # elixirls.enable = true;
       nextls.enable = true;
-      nil-ls.enable = true;
+      nil_ls.enable = true;
       tailwindcss.enable = true;
 
-      tsserver = {
+      ts_ls = {
         enable = true;
         extraOptions.single_file_support = false;
         rootDir = ''
