@@ -149,12 +149,14 @@
           '';
       };
 
-      volar = {
-        enable = true;
-        rootDir = ''
-          require('lspconfig').util.root_pattern("vite.config.mts")
-          '';
-      };
+      volar.enable = true;
+      #   rootDir = ''
+      #     # root_pattern = { 'vite.config.ts', 'nuxt.config.ts' },
+      #
+      #
+      #     require('lspconfig').util.root_pattern("vite.config.mts")
+      #     '';
+      # };
     };
   };
 }
