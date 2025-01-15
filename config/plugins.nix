@@ -1,5 +1,6 @@
 {
   imports = [
+    ./pluginx/avante.nix
     ./plugins/cmp.nix
     ./plugins/comment.nix
     ./plugins/fidget.nix
