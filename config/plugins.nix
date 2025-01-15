@@ -1,6 +1,5 @@
 {
   imports = [
-    ./pluginx/avante.nix
     ./plugins/cmp.nix
     ./plugins/comment.nix
     ./plugins/fidget.nix
@@ -9,6 +8,7 @@
     ./plugins/telescope.nix
     ./plugins/tmux.nix
     ./plugins/treesitter.nix
+    ./plugins/web-devicons.nix
     ./plugins/which-key.nix
     ./plugins/zenmode.nix
   ];

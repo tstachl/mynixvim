@@ -1,6 +1,7 @@
 {
   imports = [
     ./lsp.nix
+    ./plugins/avante.nix
     ./plugins/conform.nix
     # ./plugins/elixir-tools.nix
     ./plugins/gitsigns.nix
