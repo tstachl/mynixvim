@@ -136,6 +136,8 @@
         };
       };
 
+      gopls.enable = true;
+
       # elixirls.enable = true;
       nextls.enable = true;
       nil_ls.enable = true;
